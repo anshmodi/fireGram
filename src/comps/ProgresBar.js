@@ -5,6 +5,8 @@ export const ProgressBar = ({file, setFile})=>{
     const {url,progress} = useStorage(file)
     console.log(progress);
     // test
+
+    //again test
     return(
         <div  style = {{width: progress + '%'}}>
             progress
